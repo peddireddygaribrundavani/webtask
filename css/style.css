@@ -1,0 +1,93 @@
+        body,
+        html,
+        .container {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+        }
+        
+        body {
+            background-image: url("../images/image1.jpg");
+            overflow: hidden;
+        }
+        
+        .demo1 {
+            padding-left: 10%;
+        }
+        
+        .demo {
+            padding-top: 10%;
+            padding-left: 5%;
+        }
+        
+        .button {
+            padding-left: 43%;
+            padding-top: 10px;
+        }
+        
+        .button button {
+            border: solid yellow;
+            color: white;
+            background-color: yellow;
+        }
+        
+        .flex {
+            display: flex;
+            padding-left: 25%;
+            margin-top: 5%;
+        }
+        
+        .flex .cart,
+        .flex .cart1,
+        .flex .cart2,
+        .flex .cart3 {
+            width: 200px;
+            height: 240px;
+            margin-bottom: 10px;
+        }
+        
+        .cart {
+            background-color: grey;
+            text-align: center;
+        }
+        
+        .cart img,
+        .cart1 img,
+        .cart2 img,
+        .cart3 img {
+            height: 30px;
+            width: 30px;
+            margin-top: 10px;
+        }
+        
+        .cart h5,
+        .cart1 h5,
+        .cart2 h5,
+        .cart3 h5 {
+            color: yellow;
+            margin-top: 5px;
+        }
+        
+        .cart p,
+        .cart1 p,
+        .cart2 p,
+        .cart3 p {
+            color: white;
+            font-size: 15px;
+        }
+        
+        .cart1 {
+            background-color: black;
+            text-align: center;
+        }
+        
+        .cart2 {
+            background-color: grey;
+            text-align: center;
+        }
+        
+        .cart3 {
+            background-color: black;
+            text-align: center;
+        }
